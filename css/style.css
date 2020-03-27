@@ -1,0 +1,807 @@
+/*global css start*/
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.headline-color{
+    padding-left: 6px;
+    color: #756AFF;
+}
+
+/*global css end*/
+/*Banner section css start*/
+.banner{
+    background: url(../image/backgroundone.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 100%;
+}
+.banner .navbar{
+    float: right;
+    margin: 20px 0;
+}
+.banner .logo{
+    margin: 20px 0;
+}
+.banner .navbar .navbar-nav{}
+.banner .navbar .navbar-nav .nav-item{}
+.banner .navbar .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 5px 12px;
+}
+.banner .navbar .navbar-nav .nav-item .nav-link:hover{
+    border: 1px solid #ffff;
+    border-radius: 36px;
+    transition: 0.2s linear;
+}
+.banner .hero-area{
+    margin: 60px 0;
+}
+.banner .hero-area h1{
+    
+font-size: 40px;
+    
+color: #ffff;
+    
+font-weight: 700;
+    
+text-transform: uppercase;
+}
+.banner .hero-area p{
+
+font-size: 20px;
+
+color: #fff;
+
+padding: 15px 0;
+}
+.banner .hero-area a{}
+.banner .hero-area .btn{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 34px;
+    margin: 0 5px;
+}
+.banner .mocup{
+    margin-bottom: 43px;
+}
+.banner .hero-area .btn-cta{
+    background: #fff;
+    color: #756aff;
+}
+.banner .hero-area .btn:hover{
+    background: #ffffff;
+    transition: 0.3s linear;
+    color: #756aff;
+}
+
+/*Banner section css end*/
+/*feature section css start*/
+.feature{
+    text-align: center;
+    height: 100%;
+}
+.feature h1{
+    font-size: 36px;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+.feature p{
+    font-size: 16px;
+}
+.feature .feature-item .feature-img {
+    /* width: 68%; */
+}
+.feature .feature-item{
+    margin: 40px 0;
+}
+
+.feature .feature-item h2{
+    text-transform: uppercase;
+    color: #3f3f3f;
+    font-size: 24px;
+    padding: 13px 0;
+}
+.feature .feature-item h5{
+    font-size: 19px;
+    font-weight: 100;
+    color: #3f3f3f;
+    padding: 10px 0px;
+    padding-bottom: 25px;
+}
+.feature .feature-item .read-btn{
+    text-decoration: none;
+    font-size: 25px;
+    color: #756aff;}
+.feature .feature-item .feature-imgtwo{
+    padding-bottom: 10px;
+}
+.gap {
+    padding: 0 !important;
+}
+/*feature section css end*/
+/*details-section css start*/
+.details-section{
+    background: url(../image/contactbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100% !important;
+}
+
+.details-section .mocup-2{
+    padding: 40px 0px;
+    margin-right: 40px;
+}
+.details-section .details-text{
+    margin: 60px 0;
+}
+.details-section .details-text h1{
+    font-size: 34px;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+.details-section .details-text p{
+    font-size: 16px;
+}
+.details-section .details-text h6{
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.details-section .details-text a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background: url(../image/Button-Shape.png);
+    text-decoration: none;
+    background-position: center;
+    padding: 10px 20px;
+    border-radius: 36px;
+}
+/*details-section css end*/
+/* calculate section css start */
+.calculate{
+    background: url(../image/Placeholder.png);
+    height: 100%;
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+ }
+
+.calculate .headline{
+    padding: 57px 0;
+    text-align: center;
+}
+.calculate .calculate-item{
+    
+box-shadow: 1;
+    
+align-content: normal;
+    
+
+    
+margin: 0px 35px;
+    
+padding: 15px 0px;
+    
+
+}
+.calculate .calculate-item:hover{
+    background: #F6FBFF;
+    background-opacity: 50%;
+}
+.calculate .calculate-item h5{
+    color: #9A94FF;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.calculate .calculate-item p{
+    font-size: 18px;
+    text-align: center;
+    color: #3f3f3f;
+}
+
+/* calculate section css end */
+/* portfolio section css start */
+.portfolio{
+    height: 100%;
+    margin: 30px 0;
+}
+.portfolio .portfolio-header{
+    padding-top: 70px;
+    text-align: center;
+}
+.portfolio .portfolio-header p{
+    font-size: 20px;
+    color: #3f3f3f;
+    text-align: center;
+    padding: 20px 106px;
+}
+.portfolio .portfolio-item{
+    text-align: center;
+    color: #3f3f3f;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #756AFF;
+    border-radius: 25px;
+    margin: 20px 178px;
+    padding: 8px 0;
+}
+.portfolio .portfolio-item .portfolio-btn{
+    text-decoration: none;
+    text-align: center;
+    padding: 11px 30px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.portfolio .portfolio-item .portfolio-btn:hover{
+    background: #756AFF;
+    transition: 0.5s linear;
+    color: #ffff;
+}
+.portfolio .box
+{
+    border: 2px solid #756aff;
+    border-radius: 100px;
+    margin-top: 60px;
+    height: 50px;
+    width: 60%;
+    margin-left: 229px;
+    margin-bottom: 60px;
+}
+.portfolio .box .navbar
+{}
+.portfolio .box .navbar .nav-menu
+{}
+.portfolio .box .navbar .nav-menu .nav-item
+{
+    list-style: none;
+    padding: 10px 17px;
+    margin: 6px;
+    display: inline-block;
+}
+.portfolio .box .navbar .nav-menu .nav-item .nav-link
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3f3f3f;
+    font-weight: 500;
+}
+.portfolio .box .navbar .nav-menu .nav-item:hover
+{
+    background: #756aff;
+    color:#fff;
+    border-radius: 100px;
+}
+.portfolio-image
+{position: relative;margin: 15px 0;}
+.portfolio .portfolio-image img
+{
+    width: 100%;
+}
+.portfolio .portfolio-image .hover-box 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2bacf7;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+.portfolio .portfolio-image .hover-box .fa{}
+.portfolio .portfolio-image .hover-box ul
+{
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.portfolio .portfolio-image .hover-box ul li
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #fff;
+    margin: 0px 1px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.16);
+}
+.portfolio .portfolio-image .hover-box ul li .fa
+{
+    color: #fff;
+}
+.portfolio .portfolio-image .hover-box .fa{}
+.portfolio .portfolio-image:hover .hover-box
+{
+    opacity: 0.7; 
+}
+.portfolio .portfolio-image .pp
+{
+    color: #fff;
+    text-transform: uppercase; 
+    position: absolute;
+    top: 75%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+}
+.active{
+    background: #756aff;
+    color: #fff;
+}
+
+/* portfolio section css end */
+/* submit section css start */
+.submit-section{
+    background: url(../image/submit-bg.png);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    }
+.submit-section .text-area{
+    text-align: center;
+    padding-top: 110px;
+}
+.submit-section .text-area h1{
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 17px;
+}
+.submit-section .text-area p{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 184px;
+    padding-bottom: 40px;
+}
+.submit-section .submit-area{
+    text-align: center;
+    padding: 0px 0px;
+    border-radius: 28px;
+    margin: 8px 90px;
+    background: #F6FBFF;
+    margin-bottom: 50px;
+}
+
+.submit-section .submit-area .nametext{
+    font-size: 20px;
+    padding: 12px;
+    background: #F6FBFF;
+    border: none;
+    border-radius: 28px;
+}
+.submit-section .submit-area .emailtext{
+    font-size: 20px;
+    padding: 10px;
+    background: #F6FBFF;
+    border-left: 2px solid #919395;
+    border-top: none;
+    border-right: none;
+}
+.submit-section .submit-area .submit-btn{
+    font-size: 20px;
+    padding: 13px 42px;
+    border: none;
+    background: url(../image/submit-bg.png);
+    border-radius: 28px;
+    color: #fff;
+    /* margin-left: 29px; */
+    float: right;
+    margin-top: -1px;
+    text-transform: uppercase;
+}
+.submit-section .submit-area .submit-btn:hover{
+    background: url(../image/Button-Shape.png);
+    transition: 0.5s linear;
+    color: #ffff;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* submit section css end */
+/* review section css start */
+.review-section{
+    height: 100%;
+}
+.review-header{
+    text-align: center;
+}
+.review-section .review-header h1{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.review-section .review-header p{
+    font-size: 20px;
+    color: #606060;
+    padding: 0 270px;
+}
+.review-section .review-box{
+    box-shadow: 0px 0px 4px 1px rgb(0,0,0,0.5);
+    background: url(../image/Shape.png);
+    background-repeat: no-repeat;
+    margin: 50px 0;
+    text-align: center;
+    margin-left: 20px;
+    border: 1px solid #756aff;
+}
+.review-section .review-box .customer-img{
+    padding-top: 50px;
+}
+.review-section .review-box h2{
+    font-size: 25px;
+    color: #7b99fe;
+    padding: 10px;
+    font-weight: 100;
+}
+.review-section .review-box .star-img{
+    padding: 10px;
+}
+.review-section .review-box .icon{
+    font-size: 20px;
+}
+.review-section .review-box .icon .fa{
+    font-size: 20px;
+    /* position: absolute; */
+    /* display: inline-block; */
+}
+.review-section .review-box .icon .fa:hover{
+    background: #756aff;
+    border: none;
+    color: #fff;
+}
+.review-section .review-box p{
+    font-size: 16px;
+    padding: 10px 0;
+    color: #3f3f3f;
+}
+/* review section css end */
+/* contact section css start */
+.contact{
+    height: 100%;
+}
+.contact-header{
+    text-align: center;
+}
+.contact .contact-header h1{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.contact .contact-header p{
+    font-size: 16px;
+    color: #606060;
+    padding: 0 270px;
+}
+.contact .contact-detais{
+    background: url(../image/contactbg.png);
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.contact .contact-detais .contact-item{
+    text-align: center;
+    padding: 14px 38px;
+}
+.contact .contact-detais .contact-item .contact-icon{
+    padding: 10px;
+}
+.contact .contact-detais .contact-item h1{
+    font-size: 20px;
+    font-weight: 100;
+}
+.contact-detais:hover{
+    color: #756aff;
+}
+.contact .contact-info{
+    margin-top: 60px;
+}
+.contact .contact-info .name{
+    width: 47%;
+    background: #FAFAFA;
+    color: #3f3f3f;
+    font-size: 20px;
+    padding: 10px 4px;
+    border: 1px solid #b3b0b0;
+    margin-right: 10px;
+}
+.contact .contact-info .email{
+    width: 50%;
+    background: #FAFAFA;
+    border: 1px solid #b3b0b0;
+    color: #3f3f3f;
+    font-size: 20px;
+    padding: 10px 4px;
+}
+.contact .contact-info .subject{
+    background: #FAFAFA;
+    border: none;
+    color: #3f3f3f;
+    font-size: 20px;
+    padding: 10px 7px;
+    border: 1px solid #b3b0b0;
+    margin-top: 15px;
+    width: 100%;
+}
+.contact .contact-info .massage{
+    width: 100%;
+    background: #FAFAFA;
+    border: none;
+    color: #3f3f3f;
+    font-size: 20px;
+    padding: 10px 7px;
+    padding-bottom: 140px;
+    border: 1px solid #b3b0b0;
+    margin-top: 15px;
+    /* margin-left: -50px; */
+}
+.contact .contact-info .submit-btn{
+    background: url(../image/Button-Shape.png);
+    padding: 10px 43px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 27px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ffff;
+    border: none;
+}
+.contact .contact-info .submit-btn:hover{
+    background: #289AF7;
+   transition: 0.5s linear;
+    color: #ffff;
+}
+.contact .mocup{
+    float: left;
+    margin: 50px 40px;
+    }
+/* contact section css end */
+/* Footer section css start */
+.footer{
+    height: 100%;
+    background: url(../image/Footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer .footer-area{
+    margin: 35px 0;
+}
+.footer .footer-area{}
+.footer .footer-area .footer-text{
+    text-align: left;
+    margin-top: 35px;
+}
+.footer .footer-area .footer-text h5{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.footer .footer-icon{
+    text-align: right;
+    margin-top: 35px;
+    font-size: 25px;
+    color: #ffff;
+}
+.footer .footer-icon .fa{padding: 3px;}
+.footer .footer-icon .fa:hover{
+    color: #000000;
+    transition: 0.5s linear;
+}
+.display{
+    display: none;
+}
+/* Footer section css end */
+
+
+/* Responsive css*/
+@media (min-width: 1200px) { ... }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.banner .hero-area h1 {
+    font-size: 35px;
+}
+.banner .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    padding: 4px 8px;
+}
+.banner .hero-area p {
+    font-size: 16px;
+}
+.banner .mocup {
+    margin-bottom: 119px;
+}
+.portfolio .portfolio-item {
+    margin: 20px 88px;
+}
+.submit-section .submit-area{
+    margin: 30px 122px;
+}
+.review-section .review-header p {
+    font-size: 16px;
+    color: #606060;
+    padding: 0 205px;
+}
+.contact .contact-header p {
+    padding: 0 240px;
+}
+.footer .footer-area .footer-text h5 {
+    font-size: 14px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+.contact .mocup {
+    float: right;
+    margin:0;
+}
+.portfolio .portfolio-item {
+    margin: 20px -32px;
+}
+.review-section .review-header p {
+    padding: 0;
+}
+.review-section .review-box{
+    margin-left: 0;
+}
+.contact .contact-header p{
+    padding: 0;
+}
+.contact .contact-detais {
+    background: url(../image/contactbg.png);
+    margin: 0;
+
+}
+.contact .contact-detais .contact-item {
+    text-align: center;
+    padding: 14px 30px;
+}
+.contact .contact-detais .contact-item h1{
+    font-size: 12px;
+}
+.contact .contact-info .name {
+    width: 100%;
+    margin-bottom:20px;
+}
+.contact .contact-info .email {
+    width: 100%;
+}
+.contact .mocup {
+    float: right;
+    margin: 47px -12px;
+}
+}
+
+@media (max-width: 575.98px) {
+    .contact .contact-header p {
+    padding: 0;
+}
+.review-section .review-header p {
+    padding: 0;
+}
+.submit-section .text-area p {
+    padding: 0;
+    padding-bottom: 40px;
+}
+.portfolio .portfolio-header p {
+    font-size: 20px;
+    color: #3f3f3f;
+    text-align: center;
+    padding: 0;
+}
+.portfolio .portfolio-item {
+    text-align: center;
+    color: #3f3f3f;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #756AFF;
+    border-radius: 25px;
+    margin: 0;
+    padding: 8px 0;
+}
+.contact .contact-detais .contact-item {
+    padding: 5px;
+}
+.contact .mocup {
+    margin: 0 24px;
+}
+.banner .hero-area .btn-cta {
+    background: #fff;
+    color: #756aff;
+    margin: 10px 0;
+}
+.banner .mocup {
+    margin-bottom: 99px;
+}
+.footer .footer-icon {
+   
+    margin-top: 43px;
+    font-size: 16px;
+   
+}
+.contact .contact-detais {
+    background: url(../image/contactbg.png);
+    /* margin-top: 50px; */
+    /* margin-left: -22px; */
+    /* margin-right: 15px; */
+    margin: 20px;
+}
+.contact .contact-info .name {
+    width: 100%;
+    margin: 20px 7px;
+}
+.contact .contact-info .email {
+    width: 100%;
+    margin: 10px 7px;
+}
+.contact .contact-info .subject{
+    margin: 10px 7px;
+}
+.contact .contact-info .massage{
+        margin: 10px 7px;
+}
+.contact .contact-info .submit-btn{
+    margin: 0 7px;
+}
+.review-section .review-box {
+    padding: 0 30px;
+}
+.submit-section .submit-area{
+    background: none;
+    margin: 0;
+}
+.submit-section .submit-area .nametext {
+    padding: 12px 20px;
+    width: 100%;
+    margin: 10px 0;
+}
+.submit-section .submit-area .emailtext {
+    padding: 12px 20px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius:28px;
+    border: none;
+}
+.submit-section .submit-area .submit-btn {
+    font-size: 20px;
+    padding: 13px 42px;
+    border: none;
+    background: url(../image/submit-bg.png);
+    border-radius: 28px;
+    color: #fff;
+    /* margin-left: 29px; */
+    float: none;
+    margin-top: -1px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.display{
+    display: block;
+}
+.none{
+    display: none;
+}
+.portfolio .portfolio-item .portfolio-btn {
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 22px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.feature .feature-item {
+    margin: 20px 30px;
+}
+}
